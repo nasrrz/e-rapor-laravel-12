@@ -30,3 +30,25 @@ Ikuti langkah-langkah berikut untuk menjalankan proyek ini di mesin lokal kamu:
    ```bash
    git clone [https://github.com/nasrrz/e-rapor-laravel-12.git](https://github.com/nasrrz/e-rapor-laravel-12.git)
    cd e-rapor-laravel-12
+   nstal Dependensi
+2.**Install Depedensi**
+    ```bash
+    composer install
+    npm install && npm run build
+3.**Konfigurasi Environment Salin file .env.example menjadi .env dan sesuaikan database kamu.**
+    ```bash
+    cp .env.example .env
+    php artisan key:generate
+4.**Migrasi Database**
+    ```bash
+    php artisan migrate
+
+## 📸 Tampilan
+## 🤝 Kontribusi
+
+Jika ingin berkontribusi, silakan lakukan Fork repositori ini dan kirimkan Pull Request.
+## 📄 Lisensi
+
+Proyek ini bersifat open-source di bawah lisensi MIT.
+
+## Dibuat oleh nasrrz
