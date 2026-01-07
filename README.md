@@ -44,24 +44,24 @@ Pastikan sistem Anda sudah terinstall **PHP 8.2+**, **Composer**, dan **Node.js*
     Instalasi Dependency
     Bash
 
-1. **Clone & Masuk ke Direktori**
+2. **Clone & Masuk ke Direktori**
    ```bash
     composer install
     npm install && npm run dev
 
-1. **Clone & Masuk ke Direktori**
+3. **Clone & Masuk ke Direktori**
    ```bash
     Konfigurasi Environment
     Bash
 
-1. **Clone & Masuk ke Direktori**
+4. **Clone & Masuk ke Direktori**
    ```bash
     cp .env.example .env
     php artisan key:generate
     Jangan lupa sesuaikan DB_DATABASE, DB_USERNAME, dan DB_PASSWORD di file .env Anda.
 
 
-6. **Migrasi Database**
+5. **Migrasi Database**
    ```bash
     php artisan migrate --seed
     
@@ -73,18 +73,8 @@ Pastikan sistem Anda sudah terinstall **PHP 8.2+**, **Composer**, dan **Node.js*
 
 Kami sangat terbuka untuk kontribusi!
 
-    Fork Project ini.
-
-    Buat Feature Branch (git checkout -b fitur/FiturKeren).
-
-    Commit Perubahan (git commit -m 'Menambahkan fitur keren').
-
-    Push ke Branch (git push origin fitur/FiturKeren).
-
-    Buka Pull Request.
-
 📄 Lisensi
 
 Didistribusikan di bawah Lisensi MIT. Lihat LICENSE untuk informasi lebih lanjut.
 
-<p align="center"> Dibuat dengan ❤️ oleh <a href="https://www.google.com/search?q=https://github.com/nasrrz">nasrrz</a> </p>
+<p align="center"> Dibuat  oleh <a href="https://www.google.com/search?q=https://github.com/nasrrz">nasrrz</a> </p>
