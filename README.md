@@ -68,10 +68,7 @@ Pastikan sistem Anda sudah terinstall **PHP 8.2+**, **Composer**, dan **Node.js*
 
 🖥️ Preview Tampilan
 
-(Segera hadir - Screenshot aplikasi akan ditambahkan di sini)
-🤝 Kontribusi
-
-Kami sangat terbuka untuk kontribusi!
+![Dashboard e-Rapor](public/screenshots/dashboard.png)
 
 📄 Lisensi
 
